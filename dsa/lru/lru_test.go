@@ -45,6 +45,5 @@ func expectEqual(t *testing.T, actual, expected interface{}) {
 
 	if actual != expected {
 		t.Errorf("Wrong Value. expected %v, got %v", expected, actual)
-
 	}
 }
